@@ -1,0 +1,22 @@
+{
+  "name": "df19-invoicing-service",
+  "version": "1.0.0",
+  "description": "DF19 Invoicing Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-stream": "^1.0.0",
+    "express": "^4.17.1",
+    "jsforce": "^1.9.3",
+    "pdfkit": "^0.10.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
