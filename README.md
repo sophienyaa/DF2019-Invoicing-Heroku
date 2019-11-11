@@ -1,5 +1,9 @@
 ## Microservices inside Salesforce With Platform Events and Change Data Capture
 
+Thank you for coming to my talk, I hope that it was informative. This repository contains the off-platform service code, written in NodeJS used in the demonstration. It is intended to be used with Heroku, but can also be run locally.
+
+Please note, this service is **not production ready**, it is intented to be used only as an example.
+
 ### Heroku Invoicing Service
 
 #### Introduction
@@ -20,5 +24,3 @@ The following enviornment variables must be set to run the application
 `SF_INV_REQ` the platform event to use for invoice requests (e.g `Generate_Invoice_PDF__e`)
 
 `SF_INV_RES` the platform event to use for invoice responses (e.g `Invoice_PDF__e`)
-
-This service is **not production ready**, it is intented to be used only as an example.
